@@ -6,4 +6,6 @@ public interface BinarySearchable {
 	
 	int findPeekElementIndex(int[] arr);
 	
+	int findIndexInOrderAgnostic(int[] arr, int target, int start, int end);
+	
 }

@@ -31,7 +31,7 @@ import io.mylearnings.algo.utils.BinarySearchable;
  * 
  * */
 
-public class PeakArray {
+public class MountainArray {
 
 	public void findPeekElementIndex(int[] arr) {
 
