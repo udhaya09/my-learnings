@@ -1,10 +1,13 @@
-package io.mylearnings.algo.utils;
+package io.mylearnings.algo.programs;
+
+import io.mylearnings.algo.utils.BinarySearchImpl;
+import io.mylearnings.algo.utils.BinarySearchable;
 
 public class InfiniteSortedArray {
 
 	public int findANumber(int[] arr, int target) {
 
-		Searchable searchable = new BinarySearchImpl();
+		BinarySearchable searchable = new BinarySearchImpl();
 		
 		int result = -1;
 

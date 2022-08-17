@@ -1,7 +1,9 @@
 package io.mylearnings.algo.utils;
 
-public interface Searchable {
+public interface BinarySearchable {
 
 	int findIndex(int[] arr, int target, int start, int end);
+	
+	int findPeekElementIndex(int[] arr);
 	
 }
