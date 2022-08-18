@@ -48,9 +48,11 @@ public class BinarySearchImpl implements BinarySearchable {
 		int mid = 0;
 		int result = -1;
 
-		boolean isAsc = arr[start] <= arr[end];
+		
 
 		while (start <= end) {
+			
+			boolean isAsc = arr[start] <= arr[end];
 
 			mid = start + (end - start) / 2;
 

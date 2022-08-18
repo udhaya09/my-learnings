@@ -2,6 +2,7 @@ package io.mylearnings;
 
 import io.mylearnings.algo.programs.InfiniteSortedArray;
 import io.mylearnings.algo.programs.MountainArray;
+import io.mylearnings.algo.programs.RotatedArray;
 import io.mylearnings.algo.programs.SearchMountainArray;
 
 public class DefaultRunner {
@@ -14,7 +15,9 @@ public class DefaultRunner {
 
 		int[] mountainArray = { 1, 3, 5, 6, 4, 3, 2 };
 
-		int target = 2;
+		int[] rotatedArray = { 1,3,5 };
+
+		int target = 0;
 
 		// InfiniteSortedArray infiniteSortedArray = new InfiniteSortedArray();
 		// infiniteSortedArray.checkElementExists(sortedArray, 88);
@@ -22,11 +25,12 @@ public class DefaultRunner {
 		// MountainArray mntnArray = new MountainArray();
 		// mntnArray.findPeekElementIndex(mountainArray);
 
-		SearchMountainArray searchMountainArray = new SearchMountainArray();
-		searchMountainArray.searchTarget(mountainArray, target);
-
-	
+		// SearchMountainArray searchMountainArray = new SearchMountainArray();
+		// searchMountainArray.searchTarget(mountainArray, target);
 		
+		RotatedArray rotatedArrayService = new RotatedArray();
+		rotatedArrayService.findTargetExist(rotatedArray, target);
+
 	}
 
 }
